@@ -11,10 +11,24 @@ export default function HomeHero() {
     <Section spacing={"none"} as="header">
       <div className="grid grid-cols-1 lg:grid-cols-2 relative max-h-[90dvh] overflow-hidden">
         <div className="aspect-square relative ">
-          <Image src={thisIsFine} fill alt="" className="object-cover" />
+          <Image
+            src={thisIsFine}
+            fill
+            alt=""
+            className="object-cover"
+            fetchPriority="high"
+            priority
+          />
         </div>
         <div className="aspect-square relative ">
-          <Image src={warzone} fill alt="" className="object-cover" />
+          <Image
+            src={warzone}
+            fill
+            alt=""
+            className="object-cover"
+            fetchPriority="high"
+            priority
+          />
         </div>
         <div className="absolute flex flex-col gap-4 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
           <h1 className="uppercase text-white text-5xl text-center ">
