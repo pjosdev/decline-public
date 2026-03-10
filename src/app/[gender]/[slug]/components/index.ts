@@ -1,0 +1,11 @@
+export { DetailsDescription, type DetailsDescriptionProps } from "./details-description";
+export { DetailsMobile, type DetailsSectionProps } from "./details-mobile";
+export { DetailsDesktop } from "./details-desktop";
+export { SizeSelection, type SizeSelectionProps } from "./size-selection";
+export { SizeSelect, type SizeSelectProps } from "./size-select";
+export { Information, type InformationProps } from "./information";
+export { Reviews, type ReviewsProps } from "./reviews";
+export { ShippingAndReturns } from "./shipping-and-returns";
+export { StarRating, type StarRatingProps } from "./star-rating";
+export { ProductReview } from "./product-review";
+export { Share } from "./share";
